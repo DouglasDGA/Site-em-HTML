@@ -1,0 +1,217 @@
+html {
+  width: 100%;
+  background: #d6ffe8;
+}
+
+img{
+  width: 55px;
+  display: flex;
+  text-align: center;
+}
+
+div.logo, div.login{
+  background-position: center;
+  text-align: center; 
+  color: #00eeff; 
+  text-decoration: underline overline dotted #7a2e2e;  
+  background-size: 300px;  
+  background-attachment: scroll;
+}
+
+aside.head{
+  display: flex;
+  text-align: center;
+  flex-direction: row; 
+  justify-content: center; 
+  align-content: center;
+}
+
+header.menu-principal{
+  width: 100%;
+  font-size: 35px;
+  color: #1e7d17;
+  background: #ffd1f5;
+  font-style: italic;
+  font-family: Arial;
+  text-align: center;
+}
+
+nav.menu-auxiliar{
+  border: 0;
+  width: 100%;
+  height: 64px;
+  justify-content: center; 
+  font-size: 20px;
+  text-align: center;
+}
+
+nav.menu-auxiliar-2{
+  border: 0;
+  width: 100%;
+  height: 100px;
+  font-size: 20px;
+  text-align: center;
+  color: #ffeb14;
+  background: #00ccff;
+  display: inline-block; 
+  flex-direction: row; 
+  justify-content: inline-block; 
+  align-content: inline-block;
+}
+
+h1{
+  color: #043914;
+  font-size: 35px;
+  background: #ff7575;
+  font-style: italic;
+  font-family: Arial;
+  display: inline-flex; 
+  flex-direction: row; 
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div.subtit{
+  color: #004280;
+  font-size: 25px;
+  background: #cfa8ff;
+  font-style: italic;
+  font-family: Arial;
+  display: inline-flex; 
+  flex-direction: row; 
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h2{
+  color: #380000;
+  font-size: 20px;
+  font-style: italic;
+  font-family: Arial;
+  text-align:justify;
+  display: flex; 
+  flex-direction: row; 
+  align-content: center; 
+}
+
+section > div1 > h2{
+  text-align: left;
+}
+
+dir{
+  color: #905418;
+  font-size: 20px;
+  font-style: italic;
+  font-family: Arial;
+  display: inline-flex;
+  flex-direction: row; 
+  justify-content: center;
+  flex-wrap: wrap;
+}
+ 
+footer{
+  width: 100%;
+  background: #2b4969;
+  display: inline-flex;
+  justify-content: center;
+}
+
+p.texto{
+  text-align: justify;
+}
+
+article{
+  text-align: center;
+}
+
+div.aside{
+  justify-content: left;
+  display: left;
+}
+
+a{
+  text-decoration: none;
+  color: #004cff;
+}
+
+a.log{
+  text-decoration: none;
+  color: #004cff;
+  font-size: 15px;
+  
+}
+
+div.card{
+  padding-top: 64px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+div.card > div{
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+div.card > div p{
+  text-align: center;
+  font-family: Roboto;
+  font-size: 5vmax;
+  color: white;
+}
+
+p.texto{
+  padding: 2%;
+  color: white;
+  font-size: 4vmax;
+  text-align: center;
+}
+
+label1{
+  font-size: 25px;
+}
+
+table{
+  justify-content: center;
+  display: inline-flex;
+  background-color: #ff531a88;
+  text-align: center;
+}
+
+aside{
+  display: flex; 
+  flex-direction: row;  
+  align-content: center;
+}
+
+div.left, div.right{
+  padding: 1mm;
+  display: inline-flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+}
+
+div.left1{
+  padding: 1mm;
+  flex-direction: row; 
+  flex-wrap: wrap;
+}
+
+div.right1{
+  flex-wrap: wrap;
+  display: flex;
+}
+
+aside.conter{
+  display: flex;
+}
+
+form{
+  display: inline-block; 
+  flex-direction: row; 
+  justify-content: flex; 
+  align-content: flex;
+}
